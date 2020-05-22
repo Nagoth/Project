@@ -5,7 +5,7 @@ function create {
 create
 no=0
 num=$(ls | wc -l)
-echo "Guess how many files are in this directory, $num"
+echo "Guess how many files are in this directory"
 while [[ no -eq 0 ]]
 do
 read res
